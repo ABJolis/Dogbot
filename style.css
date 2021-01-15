@@ -1,0 +1,130 @@
+body, html {
+font-family: sans-serif;
+background-color: #6699b3;
+}
+
+header {
+  background-color: #fff0de;
+  width: 90vw;
+  height: 20vh;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+img {
+  height: 20vh;
+  object-fit: contain;
+  display: inline;
+  border-radius: 50%;
+  margin-left: 7%;
+  //padding-left: 7vw;
+  //padding-right: 7vw;
+  overflow: hidden;
+}
+
+h1 {
+  float: right;
+  color: #6699b3;
+  margin: 0 auto;
+  position: relative;
+  right: 8%;
+  bottom: 5%;
+  text-transform: uppercase;
+  font-size: 20vh;
+  font-family: sans-serif;
+  display: inline;
+}
+
+#chatlog {
+  width: 90vw;
+  height: 70vh;
+  margin: 0px auto;
+  background-color: ivory;
+  overflow: auto;
+  border-radius: 15px;
+}
+
+p {
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  margin: 10px 10px;
+  color: slategray;
+}
+
+.userReply {
+  background: bisque;
+  border: 1px solid bisque;
+  text-align: right;
+  margin-left: 30vw;
+}
+
+.username {
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: -35px;
+  margin-right: 5px;
+}
+
+.utimestyle {
+  font-size: .7rem;
+  border: 0px solid transparent;
+  text-align: right;
+  margin-top: -35px;
+}
+
+.botReply {
+  background: #c4ecff;
+  text-align: left;
+  margin-right: 30vw;
+  }
+
+.botname, .botnamestill {
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: -35px;
+  margin-left: 5px;
+}
+
+.bottimestyle {
+  font-size: 0.7rem;
+  border: 0px solid transparent;
+  text-align: left;
+  margin-top: -35px;
+}
+
+form {
+  width: 90vw;
+  margin: 0px auto;
+  background-color: white;
+  border-radius: 15px;
+  border: 7px #c4ecff solid;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 90vw;
+  height: 10vh;
+  resize: none;
+  align-items: center;
+  border-radius: 15px;
+  border: 0px #c4ecff solid;
+  padding-inline-start: 5px;
+}
+
+button {
+  width: 25%;
+  align-items: center;
+  border-radius: 15px;
+  background-color: bisque;
+  text-transform: uppercase;
+}
