@@ -1,3 +1,5 @@
+//EloquenJS functions notes
+
 //function to trigger when page loads
 window.addEventListener("load", (event) => {
 
